@@ -147,6 +147,7 @@ var editproductitemrecords = function(product) {
 
 
     }
+    retrieveProductFromLocalStorage();
     var Createbtn = document.getElementById("btnProductsave");
     var Updatebtn = document.getElementById("btnProductupdate");
     console.log(Createbtn);
@@ -202,6 +203,7 @@ var decrementitem = function(id) {
 
         }
     }
+    retrieveProductFromLocalStorage();
 }
 var logoutUser = function(e) {
     debugger;
